@@ -4,7 +4,7 @@ import { LiveMatch } from '@/components/matches/live-match';
 
 export default function Home() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 container mx-auto p-4">
       <section>
         <h2 className="text-3xl font-bold mb-6">Tabla de Clasificación</h2>
         <StandingsTable />
